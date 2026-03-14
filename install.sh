@@ -5,7 +5,7 @@ echo "=== https://github.com/FelixBanan ==="
 echo "=== MikroTik 7.20.2 Installer for VMM6 and or VPS ==="
 echo
 sleep 3
-wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.2/chr-7.20.2-legacy-bios.img.zip -O chr.img.zip  && \
+wget https://github.com/elseif/MikroTikPatch/releases/download/7.22/chr-7.22-legacy-bios.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 STORAGE=`lsblk | grep disk | cut -d ' ' -f 1 | head -n 1` && \
 echo STORAGE is $STORAGE && \
